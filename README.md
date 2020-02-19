@@ -8,7 +8,7 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 
 - [7zip](https://www.7-zip.org/)
 - [innoextract v1.8](https://github.com/dscharrer/innoextract/releases)
-- msvcr120.dll
+- [msvcr120.dll](https://www.dll-files.com/msvcr120.dll.html)
 - [InsydeImageExtractor Initial Release](https://github.com/LongSoft/InsydeImageExtractor/releases)
 - [H2OEZE](https://www.win-raid.com/t4639f16-TOOL-H-EZE-Insyde-quot-Easy-BIOS-Editor-quot.html)
 - [UEFITool v0.27.0](https://github.com/LongSoft/UEFITool/releases)
