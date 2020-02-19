@@ -16,11 +16,11 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 # Steps
 
 `
-$ innoextract <file>
+$ innoextract <bios.exe>
 `
 
 `
-$ extractor <infile> <outfile>
+$ extractor <bios.fd> <out.fd>
 `
 
 Use UEFITool to search the desired file type such as jpg/gif/bmp as text with unicode unchecked.
