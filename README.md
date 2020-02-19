@@ -2,6 +2,8 @@
 
 This guide attempts to extract Bios Image from a Lenovo Device. (Tested on Lenovo Legion Y530)
 
+Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
+
 # Dependencies
 
 - [7zip](https://www.7-zip.org/)
