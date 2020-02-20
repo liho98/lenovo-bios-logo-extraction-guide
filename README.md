@@ -19,11 +19,13 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 $ innoextract <bios.exe>
 `
 
+Open the resulting .exe with 7zip as archive, then extract all files from the archive.
+
 `
 $ extractor <bios.fd> <out.fd>
 `
 
-Use UEFITool to search the desired file type such as jpg/gif/bmp as text with unicode unchecked.
+Use UEFITool to search the desired file type such as jpg(JFIF)/gif(GIF89a)/bmp(BM) as text with unicode unchecked. For .pcx files use hexadecimal 0A 05 01 08.
 
 Finally, extract Raw Section body as <filename>.jpg/gif/bmp accordingly.
 
