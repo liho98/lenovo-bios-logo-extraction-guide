@@ -15,8 +15,8 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 
 # Steps
 
-1. Create a new folder and copy your Bios.exe, innoextract, msvcr120.dll, InsydeImageExtractor into it.
-2. Open cmd and change the current directory to the folder you created. (eg. `> cd Desktop/newfolder`)
+1. Create a new folder (eg. bios-images) and copy your Bios.exe, innoextract, msvcr120.dll, InsydeImageExtractor into it.
+2. Open cmd and change the current directory to the folder you created. (eg. `> cd Desktop/bios-images`)
 3. Run the command `> innoextract Bios.exe`
 4. Open the newly generated Bios.exe with 7zip as the archive and extract the files from the archive.
 5. Run the command `> extractor Bios.fd out.fd`
