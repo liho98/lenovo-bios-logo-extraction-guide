@@ -17,9 +17,9 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 
 1. Create a new folder and copy your Bios.exe, innoextract, msvcr120.dll, InsydeImageExtractor into it.
 2. Open cmd and change the current directory to the folder you created. (eg. `> cd Desktop/newfolder`)
-3. Run the command `> innoextract <Bios.exe>`
+3. Run the command `> innoextract Bios.exe`
 4. Open the newly generated Bios.exe with 7zip as the archive and extract the files from the archive.
-5. Run the command `> extractor <Bios.fd> <out.fd>`
+5. Run the command `> extractor Bios.fd out.fd`
 6. Use UEFITool to search for the required file type, such as jpg (JFIF) / gif (GIF89a) / bmp (BM) as unchecked unicode text. For .pcx files, use the hexadecimal 0A 05 01 08.
 7. Finally, extract the Raw Section body as <filename> .jpg / gif / bmp.
 
