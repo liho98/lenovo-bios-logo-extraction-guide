@@ -15,13 +15,14 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 
 # Steps
 
-1. Create a new folder (eg. bios-images) and copy your Bios.exe, innoextract, msvcr120.dll, InsydeImageExtractor into it.
-2. Open cmd and change the current directory to the folder you created. (eg. `> cd Desktop/bios-images`)
-3. Run the command `> innoextract Bios.exe`
-4. Open the newly generated Bios.exe with 7zip as the archive and extract the files from the archive.
-5. Run the command `> extractor Bios.fd out.fd`
-6. Use UEFITool to search for the required file type, such as jpg (JFIF) / gif (GIF89a) / bmp (BM) as unchecked unicode text. For .pcx files, use the hexadecimal 0A 05 01 08.
-7. Finally, extract the Raw Section body as <filename> .jpg / gif / bmp.
+1. Install 7zip.
+2. Create a new folder (eg. bios-images), then copy Bios.exe, msvcr120.dll and use 7zip to extract the dependencies innoextract, InsydeImageExtractor, UEFITool into it.
+3. Open cmd and change the current directory to the folder you created. (eg. `> cd Desktop/bios-images`)
+4. Run the command `> innoextract Bios.exe`
+5. Open the newly generated Bios.exe with 7zip as the archive and extract the files from the archive.
+6. Run the command `> extractor Bios.fd out.fd`
+7. Use UEFITool to search for the required file type, such as jpg (JFIF) / gif (GIF89a) / bmp (BM) as unchecked unicode text. For .pcx files, use the hexadecimal 0A 05 01 08.
+8. Finally, extract the Raw Section body as <filename> .jpg / gif / bmp.
 
 (Note: All dependencies and Bios.exe should be extracted and placed in the same directory)
 
