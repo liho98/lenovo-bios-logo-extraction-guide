@@ -16,13 +16,27 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 # Steps
 
 1. Install 7zip.
-2. Create a new folder (eg. bios-images), then copy Bios.exe, msvcr120.dll and use 7zip to extract the dependencies innoextract, InsydeImageExtractor, UEFITool into it.
-3. Open cmd and change the current directory to the folder you created. (eg. `> cd Desktop/bios-images`)
+2. Create a new folder (eg. bios), then copy Bios.exe and use 7zip to extract the dependencies innoextract, InsydeImageExtractor, UEFITool into it.
+3. Open cmd and change the current directory to the folder you created. (eg. `> cd Desktop/bios`)
 4. Run the command `> innoextract Bios.exe`
-5. Open the newly generated Bios.exe with 7zip as the archive and extract the files from the archive.
-6. Run the command `> extractor Bios.fd out.fd`
-7. Use UEFITool to search for the required file type, such as jpg (JFIF) / gif (GIF89a) / bmp (BM) as unchecked unicode text. For .pcx files, use the hexadecimal 0A 05 01 08.
-8. Finally, extract the Raw Section body as <filename> .jpg / gif / bmp.
+5. Open the newly generated Bios.exe in the app folder with 7zip as archive, and then extract the files from the archive.
+6. Copy extractor.exe, msvcr120.dll, and change the current directory to the app folder.
+7. Run the command `> extractor Bios.fd out.fd`
+
+![ScreenShot](Steps_3-7.jpeg)
+
+8. Open UEFITool and drag and drop the generated out.fd as an image file.
+9. Use UEFITool to search for the required file type, such as jpg (JFIF) / gif (GIF89a) / bmp (BM) as unchecked unicode text. For .pcx files, use the hexadecimal 0A 05 01 08.
+
+![ScreenShot](Steps_8-9.jpeg)
+
+10. Finally, right click and extract the Raw Section body as <filename> .jpg / gif / bmp.
+  
+![ScreenShot](Steps_10.jpeg)
+
+Viola, you get the BIOS logo image of the Lenovo Legion series.
+
+![ScreenShot](Bios.jpeg)
 
 (Note: All dependencies and Bios.exe should be extracted and placed in the same directory)
 
