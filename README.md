@@ -28,7 +28,7 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 ![ScreenShot](Steps_3-7.jpeg)
 
 8. Open UEFITool and drag and drop the generated out.fd as an image file.
-9. Use UEFITool to search for the required file type, such as jpg (JFIF) / gif (GIF89a) / bmp (BM) as unchecked unicode text. For .pcx files, use the hexadecimal 0A 05 01 08.
+9. Use UEFITool to search for the required file type, such as .jpg (JFIF) / .gif (GIF87a or GIF89a) / .bmp (BM) as unchecked unicode text. For .pcx(0A 05 01 08), .jpg(FF D8 FF), .png(89 50 4E 47 0D 0A 1A 0A), .tiff(49 49 2A 00 or 4D 4D 00 2A) and .ico(00 00 01 00 or 00 00 02 00) files, search the hex pattern with body only. [Reference](https://oroboro.com/image-format-magic-bytes/)
 
 ![ScreenShot](Steps_8-9.jpeg)
 
