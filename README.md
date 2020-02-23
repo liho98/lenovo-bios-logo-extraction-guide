@@ -1,5 +1,7 @@
 # ExtractLenovoBiosImages-Guide
 
+![ScreenShot](Bios.jpeg)
+
 This guide attempts to extract a Bios image from a Lenovo device. (Tested successfully on Lenovo Legion Y530)
 
 Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
@@ -33,10 +35,6 @@ Thanks to [@tyrng](https://github.com/tyrng) for contributing this guide.
 10. Finally, right click and extract the Raw Section body as <filename> .jpg / gif / bmp.
   
 ![ScreenShot](Steps_10.jpeg)
-
-Viola, you get the BIOS logo image of the Lenovo Legion series.
-
-![ScreenShot](Bios.jpeg)
 
 (Note: All dependencies and Bios.exe should be extracted and placed in the same directory)
 
