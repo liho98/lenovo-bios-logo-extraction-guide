@@ -1,4 +1,4 @@
-# ExtractLenovoBiosImages-Guide
+# lenovo-bios-logo-extraction-guide
 
 ![ScreenShot](Bios.jpeg)
 
